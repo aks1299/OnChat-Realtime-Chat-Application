@@ -8,7 +8,7 @@
 		<version>3.3.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.alibou</groupId>
+	<groupId>com.adpproject</groupId>
 	<artifactId>chat</artifactId>
 	<version>1</version>
 	<name>Chat</name>
