@@ -21,9 +21,7 @@ public class ChatController {
     // https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-annotations.html#websocket-stomp-message-mapping
     @SendTo("/topic/public")
     // You can use the @SendTo and @SendToUser annotations to customize the
-    // destination of the output message. @SendTo is used to customize the target
-    // destination or to specify multiple destinations. @SendToUser is used to
-    // direct the output message to only the user associated with the input message.
+    // destination of the output message.
     public ChatMessage sendMessage(
             @Payload ChatMessage chatMessage) {
         // Annotation that binds a method parameter to the payload of a message. Can
